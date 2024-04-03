@@ -1,0 +1,57 @@
+body {
+	background-color: #2a113c;
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+	padding: 2rem;
+}
+
+.resume {
+	background-color: #a9abb4;
+	border-radius: 0.5rem;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+	padding: 1.5rem;
+	width: 100%;
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+h1, h2 {
+	margin-top: 0;
+}
+
+a {
+	color: #007bff;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+ul {
+	margin-left: 1.5rem;
+}
+
+li:not(:last-child) {
+	margin-bottom: 0.5rem;
+}
+
+li:last-child {
+	margin-bottom: 1.5rem;
+}
+
+@media screen and (max-width: 768px) {
+	.resume {
+		padding: 1rem;
+	}
+
+	h1 {font-size: 1.5rem;
+	}
+
+	h2 {
+		font-size: 1.2rem;
+	}
+
+	p, li {
+		font-size: 0.9rem;
+	}
+}
